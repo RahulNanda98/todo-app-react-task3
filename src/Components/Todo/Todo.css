@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-container {
+    max-width: 400px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+}
+
+.todo-container .alert {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.input-area {
+    width: 100%;
+}
+
+.input-area input {
+    width: 80%;
+    border: 1px solid black;
+    outline: none
+}
+
+.add-btn {
+    width: 20%;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(17, 126, 205);
+}
+
+.show-todos ul {
+    padding-left: 0;
+    text-align: left;
+}
+
+ul li {
+    display: flex;
+    list-style-type: none;
+}
+
+.text-box {
+    width: 80%;
+}
+
+.icon-box {
+    width: 20%;
+}
+
+.delete-icon {
+    color: red;
+    cursor: pointer;
+}
+
+.edit-icon {
+    color: rgb(17, 126, 205);
+    cursor: pointer;
+}
+
+.clear-btn {
+    width: 20%;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+}
