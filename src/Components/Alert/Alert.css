@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.alert-box {
+    margin-bottom: 0;
+    padding: 0;
+    width: 14rem;
+    height: 3rem;
+}
+
+.alert-box .alert {
+    padding: 0px 0px;
+    border-width: 0;
+}
